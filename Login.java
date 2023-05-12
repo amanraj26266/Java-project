@@ -9,13 +9,14 @@ public class Login extends JFrame{
     JLabel l1 = new JLabel("Welcome");
     JLabel l2 = new JLabel("Username");
     JLabel l3 = new JLabel("Password");
-  //  JLabel l4 = new JLabel("if not registered please sign up!");
+    JLabel l4 = new JLabel();
+    ImageIcon icon1 = new ImageIcon("C:\\Users\\Aman raj\\Downloads\\download.jpeg");
     JTextField t1 = new JTextField();
     JTextField  pass =new JTextField();
     JRadioButton btn2 = new JRadioButton("I'm not a robot");
-    //ImageIcon img = new ImageIcon("C:\\Users\\Aman raj\\Downloads\\download (2).png");
     JButton btn1 = new JButton("Signin");
     JButton btn3 = new JButton("Signup");
+    
     Login(){
 this.setSize(1300, 800);
 this.setVisible(true);
