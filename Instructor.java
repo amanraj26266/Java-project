@@ -104,6 +104,7 @@ class Instructor extends JFrame
 		String password = "3001";
 	
 		try {
+			// bh
 		  // Load the MySQL JDBC driver
 		  Class.forName("com.mysql.jdbc.Driver");
 	
